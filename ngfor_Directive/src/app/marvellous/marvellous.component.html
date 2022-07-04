@@ -1,0 +1,21 @@
+<h1>Batched of Marvellous</h1>
+<h2> {{batches[0]}} </h2>
+<h2> {{batches[1]}} </h2>
+<h2> {{batches[2]}} </h2>
+<h2> {{batches[3]}} </h2>
+
+<h1>Batched of Marvellous</h1>
+<div *ngFor = "let X of Batches">
+<h2>
+    {{X}}
+</h2>
+</div>
+
+<h1>Batched of Marvellous</h1>
+<div *ngFor = "let X of Batches; index as i">
+<h2>
+    {{i}} : {{X}}
+</h2>
+</div>
+
+<div *ngFor= "let X of Batches">{{X}}</div>
